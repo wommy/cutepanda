@@ -4,19 +4,21 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>cutepanda.design</title>
+	<title>{pkg.name}</title>
 	<style>
 		body{
-			background-color:rebeccapurple;
-			color:papayawhip;
+			background-color: rebeccapurple;
+			color: papayawhip;
+		}
+		a {
+			color: white;
 		}
 	</style>
 </head>
 <body>
 	<main>
-		<h1>hello carmen</h1>
-		<p>tom here, stuffs working</p>
-		<p>edited this text</p>
+		{% include nav %}
+		{{ content }}
 	</main>	
 	<script></script>
 </body>
